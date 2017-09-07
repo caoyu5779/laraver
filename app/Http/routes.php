@@ -29,8 +29,11 @@ Route::group(
     {
         Route::get('/', 'HomeController@index');
         Route::resource('article', 'ArticleController');
+
     }
 );
+
+Route::resource('addarticle', 'AddArticleController');
 
 Route::resource('photo', 'PhotoController');
 

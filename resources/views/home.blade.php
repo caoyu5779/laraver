@@ -13,10 +13,15 @@
 </head>
 
 <div id="title" style="text-align: center;">
-    <h1>Learn Laravel 5</h1>
-    <div style="padding: 5px; font-size: 16px;">Learn Laravel 5</div>
+    <h1>Chaos</h1>
+    <div style="padding: 5px; font-size: 16px;">Chaos was a space of neither order no disorder</div>
 </div>
 <hr>
+<div class＝"new_blog">
+    <a href="{{ url('addarticle') }}" class="btn btn-lg btn-primary">新增一篇文章</a>
+</div>
+<hr>
+<div>
 <div id="content">
     <ul>
         @foreach ($articles as $article)
@@ -33,6 +38,5 @@
         @endforeach
     </ul>
 </div>
-
 </body>
 </html>
